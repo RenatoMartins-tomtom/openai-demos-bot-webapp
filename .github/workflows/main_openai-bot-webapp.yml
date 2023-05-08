@@ -22,8 +22,8 @@ jobs:
         uses: azure/login@v1
         with:  
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: 374f8026-7b54-4a3a-b87d-328fa26ec10d   
-          allow-no-subscriptions: true
+          tenant-id: 374f8026-7b54-4a3a-b87d-328fa26ec10d 
+          subscription-id: dfe4be4e-9ef4-40a4-b51a-ec9c24167aec   
 
       - name: Set up Node.js version
         uses: actions/setup-node@v1
