@@ -44,7 +44,7 @@ export class EchoBot extends ActivityHandler {
         <|im_start|>user <user input><|im_end|>
 
         <|im_start|>assistant`
-        const url = "https://openaimmaus.openai.azure.com/openai/deployments/gpt-35-turbo/completions?api-version=2022-12-01"
+        const url = process.env.URL;
 
        
         let conversation_history = ""
