@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/dfe4be4e-9ef4-40a4-b51a-ec9c24167aec/resourceGroups/rgOpenAI/providers/Microsoft.Web/sites/ccoe-internal-chatgpt",
+    "appService.deploySubpath": "."
+}
